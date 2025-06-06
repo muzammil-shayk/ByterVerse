@@ -13,9 +13,9 @@ function Navbar({ setSearchTerm }) {
   return (
     <nav className="bg-smoky-black text-antiflash-white p-7">
       <div className="container mx-auto flex items-center justify-between">
-        <div className="text-3xl font-bold font-pacifico cursor-pointer">
+        <a href="/" className="text-3xl font-bold font-pacifico cursor-pointer">
           ByterVerse
-        </div>
+        </a>
 
         <div className="flex justify-center pl-36">
           <input
@@ -45,7 +45,7 @@ function Navbar({ setSearchTerm }) {
 
         <div className="space-x-6 text-xl flex items-center oswald-regular tracking-wider pr-10">
           <a
-            href="#"
+            href="/"
             className="hover:text-dun transition-colors duration-300 ease-in-out"
           >
             Home
