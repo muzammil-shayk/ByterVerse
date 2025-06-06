@@ -2,7 +2,7 @@ import React from "react";
 
 const MovieCard = ({ movie }) => {
   return (
-    <div className="bg-dun shadow-md rounded-xl p-4 w-52 h-96 flex flex-col items-center justify-start text-center cursor-pointer shadow-xl transition duration-300 transform transition-transform hover:scale-105">
+    <div className="bg-dun shadow-md rounded-xl p-4 w-52 h-96 flex flex-col items-center justify-start text-center cursor-pointer  duration-300 transform transition-transform hover:scale-105">
       {/* Movie Poster */}
       <img
         src={
