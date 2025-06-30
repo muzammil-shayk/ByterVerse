@@ -1,6 +1,9 @@
 const express = require("express");
 const cors = require("cors");
 const moviesRouter = require("./routes/movies");
+const seatsRouter = require("./routes/seats");
+const bookingRouter = require("./routes/booking");
+const showtimesRouter = require("./routes/showtimes");
 
 const app = express(); //init express
 const PORT = 3000;
@@ -11,6 +14,9 @@ app.get("/", (req, res) => {
   res.send("Backend is running");
 });
 app.use("/movies", moviesRouter);
+app.use("/seats", seatsRouter);
+app.use("/bookings", bookingRouter);
+app.use("/showtimes", showtimesRouter);
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
