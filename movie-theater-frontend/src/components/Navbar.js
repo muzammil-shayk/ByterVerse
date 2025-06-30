@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Link } from "react-router-dom";
 function Navbar({ setSearchTerm }) {
   const [inputValue, setInputValue] = useState("");
 
@@ -44,30 +44,24 @@ function Navbar({ setSearchTerm }) {
         </div>
 
         <div className="space-x-6 text-xl flex items-center oswald-regular tracking-wider pr-10">
-          <a
-            href="/"
+          <Link
+            to="/"
             className="hover:text-dun transition-colors duration-300 ease-in-out"
           >
             Home
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to="/movies"
             className="hover:text-dun transition-colors duration-300 ease-in-out"
           >
             Movies
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to="/about"
             className="hover:text-dun transition-colors duration-300 ease-in-out"
           >
             About
-          </a>
-          <a
-            href="#"
-            className="hover:text-dun transition-colors duration-300 ease-in-out"
-          >
-            Contact
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
