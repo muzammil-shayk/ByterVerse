@@ -45,7 +45,6 @@ CREATE TABLE `Booking` (
 
 LOCK TABLES `Booking` WRITE;
 /*!40000 ALTER TABLE `Booking` DISABLE KEYS */;
-INSERT INTO `Booking` VALUES (1,14,103,13,'2025-06-30','Confirmed'),(2,15,125,49,'2025-06-30','Confirmed'),(3,16,217,8,'2025-06-30','Confirmed');
 /*!40000 ALTER TABLE `Booking` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -73,7 +72,7 @@ CREATE TABLE `Customer` (
 
 LOCK TABLES `Customer` WRITE;
 /*!40000 ALTER TABLE `Customer` DISABLE KEYS */;
-INSERT INTO `Customer` VALUES (1,'Zaim','Khan','61G','9232123123','zaim.khan@gmail.com'),(2,'Talib','Ibrahim','51PGECHS','923297577','talib.ibrahim@gmail.com'),(3,'Sadeed','Ahmad','41IqbalTown','923142471','sadeed.ahmad@gmail.com'),(4,'Ali','Khan','Model Town, Lahore','03001234567','ali.khan@example.com'),(5,'Ahmad','Saqib','Gulberg, Lahore','03111234567','ahmad.saqib@example.com'),(6,'Rumaisa','Maalik','DHA Phase 5, Lahore','03211234567','rumaisa.maalik@example.com'),(7,'Amna','Miraj','Johar Town, Lahore','03331234567','amna.miraj@example.com'),(8,'Javed','Ali','Wapda Town, Lahore','03441234567','javed.ali@example.com'),(9,'Masroor','Ahmad','Bahria Town, Lahore','03051234567','masroor.ahmad@example.com'),(10,'Haseeb','Saif','Askari 10, Lahore','03561234567','haseeb.saif@example.com'),(11,'Muhammad','Muzammil','Askari 10, Lahore','03136006677','muhammad.muzz47@gmail.com'),(12,'Muhammad','Muzammil','Askari 10, Lahore','03136006677','muhammad.muzz47@gmail.com'),(13,'Muhammad','Muzammil','House :479A, Main Boulevard, Airline Society','03136006677','muhammad.muzz47@gmail.com'),(14,'Muhammad','Muzammil','House :479A, Main Boulevard, Airline Society','03136006677','muhammad.muzz47@gmail.com'),(15,'Muhammad','Muzammil','House :479A, Main Boulevard, Airline Society','03136006677','muhammad.muzz47@gmail.com'),(16,'Muhammad','Muzammil','House :479A, Main Boulevard, Airline Society','03136006677','muhammad.muzz47@gmail.com');
+INSERT INTO `Customer` VALUES (1,'Zaim','Khan','61G','9232123123','zaim.khan@gmail.com'),(2,'Talib','Ibrahim','51PGECHS','923297577','talib.ibrahim@gmail.com'),(3,'Sadeed','Ahmad','41IqbalTown','923142471','sadeed.ahmad@gmail.com'),(4,'Ali','Khan','Model Town, Lahore','03001234567','ali.khan@example.com'),(5,'Ahmad','Saqib','Gulberg, Lahore','03111234567','ahmad.saqib@example.com'),(6,'Rumaisa','Maalik','DHA Phase 5, Lahore','03211234567','rumaisa.maalik@example.com'),(7,'Amna','Miraj','Johar Town, Lahore','03331234567','amna.miraj@example.com'),(8,'Javed','Ali','Wapda Town, Lahore','03441234567','javed.ali@example.com'),(9,'Masroor','Ahmad','Bahria Town, Lahore','03051234567','masroor.ahmad@example.com'),(10,'Haseeb','Saif','Askari 10, Lahore','03561234567','haseeb.saif@example.com'),(11,'Muhammad','Muzammil','Askari 10, Lahore','3123456789','muhammad.muzz47@gmail.com');
 /*!40000 ALTER TABLE `Customer` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -135,7 +134,6 @@ CREATE TABLE `Payment` (
 
 LOCK TABLES `Payment` WRITE;
 /*!40000 ALTER TABLE `Payment` DISABLE KEYS */;
-INSERT INTO `Payment` VALUES (1,2,'Card','2025-06-30',800.00,NULL),(2,3,'Card','2025-06-30',800.00,NULL);
 /*!40000 ALTER TABLE `Payment` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -267,4 +265,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-07-01 14:17:20
+-- Dump completed on 2025-07-02 14:52:40
